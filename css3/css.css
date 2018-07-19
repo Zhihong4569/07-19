@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 100px;
+}
+ .safe{
+     width: 1000px;
+     margin: 0 auto;
+
+ }
