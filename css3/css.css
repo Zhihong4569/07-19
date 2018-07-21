@@ -4,11 +4,31 @@
     box-sizing: border-box;
 }
 
-.header{
-    height: 100px;
-}
- .safe{
-     width: 1000px;
-     margin: 0 auto;
 
- }
+.safe{
+    width: 1000px;
+    margin: auto;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header{
+    height: 98px;
+}
+
+.logo{
+    padding-top:20px;
+}
+
+
+
+
